@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-15T12:55:03.557Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="2i0hIxWDjRBik4Gnn86S" version="24.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-15T12:55:10.185Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="OwjDTKZuPqX_BUMWcIW2" version="24.6.5" type="github">
   <diagram name="第 1 页" id="es809ibb47ByKzEZP1Dd">
     <mxGraphModel dx="2074" dy="2267" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -121,6 +121,9 @@
         </mxCell>
         <mxCell id="AqHvkBbBSC4LO_tjrpmg-10" value="标记节点为不可用" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="866" y="762" width="144" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="AqHvkBbBSC4LO_tjrpmg-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AqHvkBbBSC4LO_tjrpmg-11" target="AqHvkBbBSC4LO_tjrpmg-29">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AqHvkBbBSC4LO_tjrpmg-11" value="更新负载均衡策略" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="919" y="846" width="145" height="34" as="geometry" />
