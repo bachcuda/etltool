@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-15T12:55:10.185Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="OwjDTKZuPqX_BUMWcIW2" version="24.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-15T12:55:34.466Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="e40uC7f__BGv2sS-lQET" version="24.6.5" type="github">
   <diagram name="第 1 页" id="es809ibb47ByKzEZP1Dd">
-    <mxGraphModel dx="2074" dy="2267" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -79,28 +79,28 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AqHvkBbBSC4LO_tjrpmg-1" value="开始" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="676.5" width="49" height="34" as="geometry" />
+          <mxGeometry x="671.5" y="8" width="49" height="34" as="geometry" />
         </mxCell>
         <mxCell id="AqHvkBbBSC4LO_tjrpmg-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AqHvkBbBSC4LO_tjrpmg-2" target="AqHvkBbBSC4LO_tjrpmg-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AqHvkBbBSC4LO_tjrpmg-2" value="Nginx 配置检查" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="638.5" y="84" width="124" height="34" as="geometry" />
+          <mxGeometry x="633.5" y="92" width="124" height="34" as="geometry" />
         </mxCell>
         <mxCell id="AqHvkBbBSC4LO_tjrpmg-3" value="Nginx 请求health节点" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="607" y="188" width="188" height="34" as="geometry" />
+          <mxGeometry x="602" y="196" width="188" height="34" as="geometry" />
         </mxCell>
         <mxCell id="AqHvkBbBSC4LO_tjrpmg-4" value="主服务节点可用?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="618" y="272" width="167" height="68" as="geometry" />
+          <mxGeometry x="613" y="280" width="167" height="68" as="geometry" />
         </mxCell>
         <mxCell id="AqHvkBbBSC4LO_tjrpmg-5" value="将请求转发到主服务节点" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="470" y="490" width="192" height="34" as="geometry" />
+          <mxGeometry x="465" y="498" width="192" height="34" as="geometry" />
         </mxCell>
         <mxCell id="AqHvkBbBSC4LO_tjrpmg-6" value="将请求转发到备用服务节点" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="712" y="490" width="208" height="34" as="geometry" />
+          <mxGeometry x="707" y="498" width="208" height="34" as="geometry" />
         </mxCell>
         <mxCell id="AqHvkBbBSC4LO_tjrpmg-7" value="监控响应" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="652" y="574" width="79" height="34" as="geometry" />
+          <mxGeometry x="647" y="582" width="79" height="34" as="geometry" />
         </mxCell>
         <mxCell id="AqHvkBbBSC4LO_tjrpmg-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AqHvkBbBSC4LO_tjrpmg-8" target="AqHvkBbBSC4LO_tjrpmg-10">
           <mxGeometry relative="1" as="geometry" />
@@ -111,22 +111,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AqHvkBbBSC4LO_tjrpmg-8" value="响应正常?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="632" y="658" width="119" height="62" as="geometry" />
+          <mxGeometry x="627" y="666" width="119" height="62" as="geometry" />
         </mxCell>
         <mxCell id="AqHvkBbBSC4LO_tjrpmg-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AqHvkBbBSC4LO_tjrpmg-9" target="AqHvkBbBSC4LO_tjrpmg-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AqHvkBbBSC4LO_tjrpmg-9" value="返回响应给客户端" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="688" y="846" width="145" height="34" as="geometry" />
+          <mxGeometry x="683" y="854" width="145" height="34" as="geometry" />
         </mxCell>
         <mxCell id="AqHvkBbBSC4LO_tjrpmg-10" value="标记节点为不可用" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="866" y="762" width="144" height="34" as="geometry" />
+          <mxGeometry x="861" y="770" width="144" height="34" as="geometry" />
         </mxCell>
         <mxCell id="AqHvkBbBSC4LO_tjrpmg-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AqHvkBbBSC4LO_tjrpmg-11" target="AqHvkBbBSC4LO_tjrpmg-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AqHvkBbBSC4LO_tjrpmg-11" value="更新负载均衡策略" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="919" y="846" width="145" height="34" as="geometry" />
+          <mxGeometry x="914" y="854" width="145" height="34" as="geometry" />
         </mxCell>
         <mxCell id="AqHvkBbBSC4LO_tjrpmg-12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.49;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="AqHvkBbBSC4LO_tjrpmg-1" target="AqHvkBbBSC4LO_tjrpmg-2">
           <mxGeometry relative="1" as="geometry">
@@ -141,28 +141,28 @@
         <mxCell id="AqHvkBbBSC4LO_tjrpmg-15" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.97;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="AqHvkBbBSC4LO_tjrpmg-4" target="AqHvkBbBSC4LO_tjrpmg-5">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="576" y="474" />
+              <mxPoint x="571" y="482" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="AqHvkBbBSC4LO_tjrpmg-16" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.97;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="AqHvkBbBSC4LO_tjrpmg-4" target="AqHvkBbBSC4LO_tjrpmg-6">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="826" y="474" />
+              <mxPoint x="821" y="482" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="AqHvkBbBSC4LO_tjrpmg-17" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=-0.01;entryY=0.11;rounded=0;" edge="1" parent="1" source="AqHvkBbBSC4LO_tjrpmg-5" target="AqHvkBbBSC4LO_tjrpmg-7">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="566" y="549" />
+              <mxPoint x="561" y="557" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="AqHvkBbBSC4LO_tjrpmg-18" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.99;entryY=0.11;rounded=0;" edge="1" parent="1" source="AqHvkBbBSC4LO_tjrpmg-6" target="AqHvkBbBSC4LO_tjrpmg-7">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="816" y="549" />
+              <mxPoint x="811" y="557" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -174,14 +174,14 @@
         <mxCell id="AqHvkBbBSC4LO_tjrpmg-20" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.34;entryY=0;rounded=0;" edge="1" parent="1" source="AqHvkBbBSC4LO_tjrpmg-8" target="AqHvkBbBSC4LO_tjrpmg-9">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="691" y="812" />
+              <mxPoint x="686" y="820" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="AqHvkBbBSC4LO_tjrpmg-22" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.35;entryY=0;rounded=0;" edge="1" parent="1" source="AqHvkBbBSC4LO_tjrpmg-10" target="AqHvkBbBSC4LO_tjrpmg-11">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="938" y="821" />
+              <mxPoint x="933" y="829" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -189,7 +189,7 @@
           <mxGeometry x="181.5" y="690" width="99" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AqHvkBbBSC4LO_tjrpmg-29" value="结束" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="800" y="960" width="120" height="60" as="geometry" />
+          <mxGeometry x="795" y="968" width="120" height="32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
