@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-30T03:01:11.094Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" etag="JKzD6fKFildici7xAdpk" version="24.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-30T03:01:59.440Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" etag="aiBFMcRyRJUUkh61vyHh" version="24.6.5" type="github">
   <diagram name="第 1 页" id="1NaeYYbevfWh8wgsjiGq">
     <mxGraphModel dx="1430" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -24,6 +24,14 @@
         </mxCell>
         <mxCell id="oLm2t81EzH8TUkGeqO75-7" value="集群A" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="75" y="20" width="638" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="oLm2t81EzH8TUkGeqO75-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oLm2t81EzH8TUkGeqO75-8" target="oLm2t81EzH8TUkGeqO75-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oLm2t81EzH8TUkGeqO75-19" value="内网同步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oLm2t81EzH8TUkGeqO75-18">
+          <mxGeometry x="-0.1228" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="oLm2t81EzH8TUkGeqO75-8" value="控制节点主" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="110" y="45" width="96" height="34" as="geometry" />
